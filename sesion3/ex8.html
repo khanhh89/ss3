@@ -9,74 +9,62 @@
 
 <body>
     <form action="http//:phimmoi.net">
-        <div>
-            <label for="name">Họ và tên:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="date">Ngày sinh:</label>
-            <input type="date">
-        </div>
-        <div>
-            <label for="gender">Giới tính:</label>
-            <label for="gender">
-                <input type="radio" name="gender" value="Nam">Nam
-            </label>
-            <label for="gender"> <input type="radio" name="gender" value="Nữ">Nữ</label>
-        </div>
-        <div>
-            <label for="numbercccd">Số căn cước công dân:</label>
-            <input type="number" name="numbercccd" id="numbercccd">
-        </div>
-        <div>
-            <label for="datecccd">Ngày cấp:</label>
-            <input type="date">
-        </div>
-        <div>
-            <label for="noicap">Nơi cấp:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email">
-        </div>
-        <div>
-            <label for="diachi">Địa chỉ thường trú:</label>
-            <textarea name="diachi" id="diachi"></textarea>
-        </div>
-        <div>
-            <label for="diachitamtru">Địa chỉ tạm trú:</label>
-            <textarea name="diachitamtru" id="diachitamtru"></textarea>
-        </div>
-        <div>
-            <label for="Loai">Loại căn cước công dân:</label>
-            <label for="Loai"><input type="radio" name="cccd" value="Căn cước công dân mới">Căn cước công dân
-                mới</label>
-            <label for="Loai"><input type="radio" name="cccd" value="Căn cước công dân cũ">Căn cước công dân cũ</label>
-        </div>
-        <div>
-            <label for="dantoc">Dân tộc:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="tongiao">Tôn giáo:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="quoctich">Quốc tịch:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="numbercccd">Số CMND/CCCD của cha/mẹ:</label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="tinhtp">Tỉnh/Thành phố</label>
-            <select name="tinhtp" id="tinhtp">
-                <option value="">Chọn Tỉnh/Thành phố</option>
-            </select>
-        </div>
-        <button>Gửi thông tin</button>
+        <table>
+            <tr>
+                <td><label for="datecccd">Ngày cấp:</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="noicap">Nơi cấp:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><label for="diachi">Địa chỉ thường trú:</label></td>
+                <td><textarea name="diachi" id="diachi"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="diachitamtru">Địa chỉ tạm trú:</label></td>
+                <td><textarea name="diachitamtru" id="diachitamtru"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="Loai">Loại căn cước công dân:</label></td>
+                <td>
+                    <label><input type="radio" name="cccd" value="Căn cước công dân mới">Căn cước công dân mới</label>
+                    <label><input type="radio" name="cccd" value="Căn cước công dân cũ">Căn cước công dân cũ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dantoc">Dân tộc:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="tongiao">Tôn giáo:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="quoctich">Quốc tịch:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="numbercccd">Số CMND/CCCD của cha/mẹ:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="tinhtp">Tỉnh/Thành phố</label></td>
+                <td>
+                    <select name="tinhtp" id="tinhtp">
+                        <option value="">Chọn Tỉnh/Thành phố</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><button>Gửi thông tin</button></td>
+            </tr>
+        </table>
     </form>
 </body>
 
